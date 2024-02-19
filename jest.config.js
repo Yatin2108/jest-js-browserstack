@@ -6,4 +6,6 @@ module.exports = {
   testMatch: ["**/*.test.js"],
   testPathIgnorePatterns: ["/node_modules/"],
   testTimeout: 60 * 1000,
+  setupFilesAfterEnv: ['./setup-jest.js'],
+
 };
